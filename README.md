@@ -30,6 +30,6 @@
   <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt=""></a>
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   
-  ![Snake animation](https://github.com/yuicchicode/yuicchicode/blob/main/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/yuicchicode/yuicchicode/blob/output/github-contribution-grid-snake.svg)
 </div>
 
