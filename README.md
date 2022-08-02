@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently a Support Team Supervisor. 
 - 🌱 I’m currently learning Python
-- 📫 How to reach me: You can send a e-mail to contato@yucode.com.br
+- 📫 How to reach me: You can send a e-mail to davidbnhrq@gmail.com
 - 😄 Pronouns: He/His
 
 
