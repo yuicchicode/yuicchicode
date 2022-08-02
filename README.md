@@ -12,16 +12,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yuicchicode&show_icons=true&theme=aura&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuicchicode&layout=compact&langs_count=7&theme=aura"/>
 </div>
-  
-<div style = "dysplay: inline_block"> <br>
-  <img align="center" alt="Yu-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-  <img align="center" alt="Yu-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"> 
-  <img align="center" alt="Yu-SQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"> 
-  <img align="center" alt="Yu-PHP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"> 
-  <img align="center" alt="Yu-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"> 
-  <img align="center" alt="Yu-JS" height="30" width="40" src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg> 
-  <img align="center" alt="Yu-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"> 
-</div>
  
 ##
 <div>
