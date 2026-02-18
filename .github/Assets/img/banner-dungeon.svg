@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Welcome, Adventurer banner">
+  <defs>
+    <!-- Base dungeon gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07070a"/>
+      <stop offset="0.55" stop-color="#0b0b10"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+
+    <!-- Subtle spotlight behind title -->
+    <radialGradient id="spot" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#2b2b35" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#13131a" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#050506" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Vignette -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <!-- Brick-ish pattern for the frame -->
+    <pattern id="bricks" width="70" height="34" patternUnits="userSpaceOnUse">
+      <rect width="70" height="34" fill="#0b0b10"/>
+      <path d="M0 17H70" stroke="#1a1a24" stroke-width="2" opacity="0.7"/>
+      <path d="M35 0V17" stroke="#1a1a24" stroke-width="2" opacity="0.7"/>
+      <path d="M0 0V17" stroke="#14141d" stroke-width="2" opacity="0.5"/>
+      <path d="M70 0V17" stroke="#14141d" stroke-width="2" opacity="0.5"/>
+    </pattern>
+
+    <!-- Iron gradient (chains/rivets) -->
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfc0c7" stop-opacity="0.45"/>
+      <stop offset="0.4" stop-color="#6c6d76" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2a2b30" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Optional texture: GitHub may sanitize filters; banner still looks good without it -->
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 0.18 0" in="n" result="a"/>
+      <feBlend mode="overlay" in="SourceGraphic" in2="a"/>
+    </filter>
+
+    <!-- Soft glow for text -->
+    <filter id="softGlow" x="-30%" y="-80%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 0.45 0" in="b" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Tiny torch flame gradients -->
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd18a" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#ff7a2f" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#2a0b06" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- Dungeon frame -->
+  <g filter="url(#grain)">
+    <rect x="26" y="26" width="1148" height="268" rx="26" fill="url(#bricks)" opacity="0.95"/>
+    <rect x="52" y="52" width="1096" height="216" rx="20" fill="#060608" stroke="#2b2b36" stroke-width="2" opacity="0.95"/>
+    <!-- Inner bevel -->
+    <rect x="58" y="58" width="1084" height="204" rx="18" fill="none" stroke="#12121a" stroke-width="10" opacity="0.9"/>
+  </g>
+
+  <!-- Spotlight + vignette -->
+  <rect x="52" y="52" width="1096" height="216" rx="20" fill="url(#spot)"/>
+  <rect x="52" y="52" width="1096" height="216" rx="20" fill="url(#vignette)"/>
+
+  <!-- Decorative chains (simple & safe) -->
+  <g opacity="0.55">
+    <path d="M120 78 C170 110, 205 140, 260 170" fill="none" stroke="url(#iron)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1080 78 C1030 110, 995 140, 940 170" fill="none" stroke="url(#iron)" stroke-width="4" stroke-linecap="round"/>
+    <!-- small links -->
+    <g fill="none" stroke="url(#iron)" stroke-width="3" opacity="0.7">
+      <ellipse cx="165" cy="110" rx="10" ry="6"/>
+      <ellipse cx="205" cy="140" rx="10" ry="6"/>
+      <ellipse cx="1035" cy="110" rx="10" ry="6"/>
+      <ellipse cx="995" cy="140" rx="10" ry="6"/>
+    </g>
+  </g>
+
+  <!-- Tiny torches -->
+  <g opacity="0.85">
+    <!-- left torch -->
+    <g transform="translate(92 150)">
+      <rect x="0" y="18" width="10" height="46" rx="3" fill="#1a1a22" stroke="#343444" stroke-width="2"/>
+      <circle cx="5" cy="16" r="8" fill="#0e0e13" stroke="#3a3a4a" stroke-width="2"/>
+      <path d="M5 0 C12 8, 10 18, 5 22 C0 18,-2 8,5 0Z" fill="url(#flame)"/>
+    </g>
+    <!-- right torch -->
+    <g transform="translate(1098 150)">
+      <rect x="0" y="18" width="10" height="46" rx="3" fill="#1a1a22" stroke="#343444" stroke-width="2"/>
+      <circle cx="5" cy="16" r="8" fill="#0e0e13" stroke="#3a3a4a" stroke-width="2"/>
+      <path d="M5 0 C12 8, 10 18, 5 22 C0 18,-2 8,5 0Z" fill="url(#flame)"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <g filter="url(#softGlow)">
+    <text x="600" y="170"
+      text-anchor="middle"
+      font-family="Cinzel, 'Trajan Pro', 'Times New Roman', serif"
+      font-size="56"
+      letter-spacing="2.5"
+      fill="#e9e7df">
+      Welcome, Adventurer
+    </text>
+
+    <!-- Ornament line -->
+    <path d="M280 204 H920" stroke="#6b6a72" stroke-width="2" opacity="0.35"/>
+    <path d="M520 204 l-18 10 l18 10 l18-10 Z" fill="#6b6a72" opacity="0.35"/>
+    <path d="M680 204 l-18 10 l18 10 l18-10 Z" fill="#6b6a72" opacity="0.35"/>
+  </g>
+
+  <!-- Corner rivets -->
+  <g opacity="0.6">
+    <circle cx="78" cy="78" r="7" fill="url(#iron)"/>
+    <circle cx="1122" cy="78" r="7" fill="url(#iron)"/>
+    <circle cx="78" cy="242" r="7" fill="url(#iron)"/>
+    <circle cx="1122" cy="242" r="7" fill="url(#iron)"/>
+  </g>
+</svg>
