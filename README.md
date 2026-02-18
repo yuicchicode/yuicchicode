@@ -5,31 +5,23 @@
 
 
 <div align="center">
-
-<img src="./.github/Assets/img/banner-dungeon.svg" width="100%" height="100%">
-
-<img align="right" src="./.github/Assets/img/character.png" width="150" height="300" style="margin-right: 15px;">
-
-
+  <img src="./.github/Assets/img/banner-dungeon.png" width="100%">
+  <img align="right" src="./.github/Assets/img/character.png" width="250" height="500" style="margin-right: 15px;">
 
 ### Hi, I'm **Yuicchi (David)**   
 **Senior Developer at Espectra tecnologia** — forging tools for Service Desk, CRM, Dashboards & Omnichannel adventures.
-
 </div>
 
-<br clear="left">
 
-
----
-
-## 📜 Tavern Notice Board
+📜 Tavern Notice Board
 > *“Pull up a chair. Choose your quest.”*
 
 - 🛠️ **Currently working:** building **Callsys** as a **Senior Developer**
 - 🎯 **In search of the level:** **Software Engineering**
 - 📈 **Grinding EXP:** becoming a stronger engineer every release, bug, and refactor
 
----
+<br/>
+<br/>
 
 ## 🧙 Character Sheet
 | Attribute | Value |
