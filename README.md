@@ -9,14 +9,14 @@
   <img align="right" src="./.github/Assets/img/character.png" width="250" height="500" style="margin-right: 15px;">
 
 ### Hi, I'm **Yuicchi (David)**   
-**Senior Developer at Espectra tecnologia** — forging tools for Service Desk, CRM, Dashboards & Omnichannel adventures.
+**Senior Developer at [Espectra Tecnologia](https://www.espectra.com.br)** — forging tools for Service Desk, CRM, Dashboards & Omnichannel adventures.
 </div>
 
 
 📜 Tavern Notice Board
 > *“Pull up a chair. Choose your quest.”*
 
-- 🛠️ **Currently working:** building **Callsys** as a **Senior Developer**
+- 🛠️ **Currently working:** building [Callsys](https://landing.espectra.com.br/espectra) as a **Senior Developer**
 - 🎯 **In search of the level:** **Software Engineering**
 - 📈 **Grinding EXP:** becoming a stronger engineer every release, bug, and refactor
 
