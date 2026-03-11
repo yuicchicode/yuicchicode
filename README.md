@@ -16,7 +16,7 @@
 📜 Tavern Notice Board
 > *“Pull up a chair. Choose your quest.”*
 
-- 🛠️ **Currently working:** building [Callsys](https://landing.espectra.com.br/espectra) as a **Senior Developer**
+- 🛠️ **Currently working:** building [Callsys](https://landing.espectra.com.br/sitedaespectra) as a **Senior Developer**
 - 🎯 **In search of the level:** **Software Engineering**
 - 📈 **Grinding EXP:** becoming a stronger engineer every release, bug, and refactor
 
