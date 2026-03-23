@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="./.github/Assets/img/banner-dungeon.png" width="100%">
-  <img align="right" src="./.github/Assets/img/character.png" width="250" height="500" style="margin-right: 15px;">
+  <img align="right" src="./.github/Assets/img/character_new.png" width="250" height="500" style="margin-right: 15px;">
 
 ### Hi, I'm **Yuicchi (David)**   
 **Senior Developer at [Espectra Tecnologia](https://www.espectra.com.br)** — forging tools for Service Desk, CRM, Dashboards & Omnichannel adventures.
